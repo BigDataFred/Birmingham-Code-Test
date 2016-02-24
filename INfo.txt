@@ -1,0 +1,15 @@
+Variables:
+
+rawlfp_spk: Contains lfp and spike data along with info about sampling rate and time;
+
+data.lfp = lfp in aribtrary units
+data.spk = firing time stamps in samples 
+data.time = time vector in seconds
+data.fs = sampling rate of lfp
+
+positiondata: Contains position info of rat in arena
+
+position.x=x coordinates in arbitrary units
+position.y=y coordinates in arbitrary units
+position.time = time vector in seconds
+position.fs = sampling rate of position (i.e. camera)
